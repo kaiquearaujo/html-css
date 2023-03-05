@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-elemento
+        >   = clildren
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font: normal bold 3em 'times new roman', times, serif;
+            color: aqua;
+            text-align: center;
+
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+            text-decoration: none;
+        }
+        a:hover{
+            color: brown;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .comum::before{
+            content: '✱ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(167, 93, 93, 0.596);
+        }
+        .comum::after{
+            content: ' ✱';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgba(167, 93, 93, 0.596);
+        }
+        .especial::before{
+            content: '❯❯❯ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(167, 93, 93);
+        }
+        .especial::after{
+            content: ' ❮❮❮';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(167, 93, 93);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="pseudoclass.html" target="_blank" class="comum">Pseudo-classes</a></li>
+        <li><a href="pseudoclass02.html" target="_blank" class="comum">Pseudo-classes 02</a></li>
+        <li><a href="hover.html" target="_blank" class="especial">Usando hover</a></li>
+    </ul>
+</body>
+</html>

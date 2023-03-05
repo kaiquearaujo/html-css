@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'steak';
+            src: url('fonts/Steak\ Rough.otf') format('opentype'), url('fonts/Steak\ Rough.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*    
+                width: ; (largura)
+                height: ; (altura)
+            */
+            /* 
+                -opentype (otf)
+                -truetype (ttf)
+                -embedded-opentype
+                -truetype-aat (apple advanced -typography)
+                -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+        h1{
+            font-family: 'steak';
+            font-weight: normal;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes Externas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloremque doloribus excepturi, beatae esse delectus temporibus perspiciatis harum. Quos accusantium possimus autem exercitationem error ad totam ipsa assumenda, consequuntur provident!</p>
+</body>
+</html>
