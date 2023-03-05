@@ -1,4 +1,4 @@
 # html-css
- curso HTML5 e CSS3 do curso em video
+ Curso HTML5 e CSS3 do cursoemvideo
 
 Aprendendo a gerenciar meus repositorios 
